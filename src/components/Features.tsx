@@ -4,7 +4,7 @@ import config from '../config/index.json';
 
 const Features = () => {
   const { features } = config;
-  const { title, subtitle, description, items: featuresList } = features;
+  const { title, subtitle, description } = features;
   return (
     <div className={`py-12 bg-background`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,7 +34,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {featuresList.map((feature) => (
               <div key={feature.name} className="relative">
@@ -58,7 +58,7 @@ const Features = () => {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
       </div>
     </div>
   );

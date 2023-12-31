@@ -55,7 +55,23 @@
     "title": "Why Theem?",
     "subtitle": "Because you want more money",
     "description": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy-to-use bot.",
-    "items": []
+    "items": [
+      {
+        "title": "Easy to Use",
+        "description": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy-to-use bot.",
+        "img": "/assets/images/easy-to-use.png"
+      },
+      {
+        "title": "Fast",
+        "description": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy-to-use bot.",
+        "img": "/assets/images/fast.png"
+      },
+      {
+        "title": "Free",
+        "description": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy-to-use bot.",
+        "img": "/assets/images/free.png"
+      }
+    ]
   },
   "pricing": {
     "title": "Join the Movement",
