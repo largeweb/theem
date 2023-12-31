@@ -1,0 +1,95 @@
+{
+  "company": {
+    "name": "Theem",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Community",
+      "href": "#community"
+    },
+    {
+      "name": "Resources",
+      "href": "#resources"
+    }
+  ],
+  "callToAction": {
+    "text": "Join",
+    "href": "https://discord.gg/S339gjYfNg"
+  },
+  "mainHero": {
+    "title": "Let's Go",
+    "subtitle": "Viral",
+    "description_short": "Theem is a discord bot for making theme page related shorts quickly",
+    "description_long": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot.",
+    "description_medium_length": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. Using Theem, you can make shorts for your theme page in a few seconds. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot. Using Theem, you can make shorts for your theme page in a few seconds. It is a discord bot for making theme page related shorts quickly. It is a simple and easy to use bot.",
+    "description": "Theem is a Discord bot designed for crafting theme page-related shorts with effortless ease. It offers a straightforward and user-friendly experience, enabling you to create captivating shorts for your theme page in mere seconds. Theem simplifies the process of generating theme page-related content on Discord, making it a go-to choice for quick and engaging shorts. Discover the power of Theem as it empowers you to produce enticing shorts effortlessly for your theme page, all within the convenience of Discord.",
+    "img": "/assets/images/theem-hero.png",
+    "primaryAction": {
+      "text": "Join Discord",
+      "href": "https://discord.gg/S339gjYfNg"
+    },
+    "secondaryAction": {
+      "text": "Learn More",
+      "href": "#about"
+    }
+  },
+  "product": {
+    "title": "Our Value",
+    "items": [
+      {
+        "title": "Collaborative Innovation",
+        "description_old": "Discover how we leverage collective intelligence to foster groundbreaking projects.",
+        "description_new": "Discover how we can make your theme page related shorts quickly.",
+        "description": "Discover how we can increase user interaction and engagement which will increase user interaction and engagement.",
+        "img": "/assets/images/collaboration.png"
+      },
+      {
+        "title": "Skill Development",
+        "description": "Learn about our resources and programs designed to enhance your professional skills.",
+        "img": "/assets/images/skill-development.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "Why Theem?",
+    "subtitle": "Because you want more money",
+    "description": "Theem is a discord bot for making theme page related shorts quickly. It is a simple and easy-to-use bot.",
+    "items": []
+  },
+  "pricing": {
+    "title": "Join the Movement",
+    "description": "WeGrow is free to join. Be a part of our growing community and start making an impact today!",
+    "items": []
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Our Mission",
+        "href": "#mission",
+        "content": "Learn about our commitment to fostering a thriving community of tech innovators and creators."
+      },
+      {
+        "name": "Our Story",
+        "href": "#story",
+        "content": "Discover the journey of WeGrow, from a simple idea to a bustling community of tech enthusiasts."
+      },
+      {
+        "name": "Meet the Team",
+        "href": "#team",
+        "content": "Get to know the minds behind WeGrow, a group of passionate professionals dedicated to your growth."
+      },
+      {
+        "name": "Success Stories",
+        "href": "#success",
+        "content": "Read inspiring stories of how WeGrow has helped members achieve their dreams."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/wegrow",
+      "twitter": "https://twitter.com/wegrow",
+      "linkedin": "https://www.linkedin.com/company/wegrow",
+      "discord": "https://discord.gg/S339gjYfNg"
+    }
+  }
+}

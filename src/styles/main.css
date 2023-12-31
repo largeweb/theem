@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Green shades for primary and secondary colors, with a touch of gold for tertiary */
+  --color-primary: #4CAF50; /* A vibrant, professional green */
+  --color-secondary: #388E3C; /* A darker shade of green for contrast */
+  --color-tertiary: #FFD700; /* Gold color for accentuating elements */
+
+  /* Blue accent color for additional styling (optional) */
+  --color-accent: #2196F3; /* A crisp, professional blue */
+}
+
+/* lets go with blue and pink style to target tik tokers instead of whats above */
+
+:root {
+  /* Blue shades for primary and secondary colors, with a touch of pink for tertiary */
+  --color-primary: #2196F3; /* A vibrant, professional blue */
+  --color-secondary: #1976D2; /* A darker shade of blue for contrast */
+  --color-tertiary: #FF4081; /* Pink color for accentuating elements */
+
+  /* Green accent color for additional styling (optional) */
+  --color-accent: #4CAF50; /* A crisp, professional green */
+}
+
+a {
+  /* @apply text-green-600; Adjusted for the primary green color */
+  /* lets go with blue instead of green */
+  @apply text-blue-600; /* Adjusted for the primary blue color */
+}
+
+a:hover {
+  /* @apply border-b-2 border-green-600; Hover effect using the same green shade */
+  @apply border-b-2 border-blue-600; /* Hover effect using the same blue shade */
+}
+
+.content p {
+  /* @apply my-6 text-green-700; Slightly darker text for better readability */
+  @apply my-6 text-blue-700; /* Slightly darker text for better readability */
+}
+
+.content ul {
+  /* @apply my-6 list-disc pl-5 text-green-700; Styled list with green text */
+  @apply my-6 list-disc pl-5 text-blue-700; /* Styled list with blue text */
+}
+
+/* Additional styling can include blue or gold accents where appropriate */
+
+/* Background color for primary */
+.bg-primary {
+  /* @apply bg-green-500; Using the primary green color */
+  @apply bg-blue-500; /* Using the primary blue color */
+}
+
+/* Hover effect for bg-primary */
+.bg-primary:hover {
+  /* @apply bg-green-600; Slightly darker green on hover */
+  @apply bg-blue-600; /* Slightly darker blue on hover */
+}
+
+/* Text color for primary */
+.text-primary {
+  /* @apply text-green-500; Text color using primary green */
+  @apply text-blue-500; /* Text color using primary blue */
+}
+
+/* Hover effect for text-primary */
+.text-primary:hover {
+  /* @apply text-green-600; Darker green text on hover */
+  @apply text-blue-600; /* Darker blue text on hover */
+}
+
+/* Text color for secondary */
+.text-secondary {
+  /* @apply text-green-700; Using a darker shade of green for secondary text */
+  @apply text-blue-700; /* Using a darker shade of blue for secondary text */
+}
+
+/* Hover effect for text-secondary */
+.text-secondary:hover {
+  /* @apply text-green-800; Even darker green on hover */
+  @apply text-blue-800; /* Even darker blue on hover */
+}
+
+.border-primary {
+  /* @apply border-green-500; Border color using primary green */
+  @apply border-blue-500; /* Border color using primary blue */
+}
