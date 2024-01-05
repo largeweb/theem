@@ -10,18 +10,58 @@ const MainHero = () => {
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
           <span className="block xl:inline">{mainHero.title}</span>{' '}
           <br className="hidden lg:inline" />
-          <div style={{position: 'relative'}}>
-            <span className={`block xl:inline`} style={{position: 'absolute', left: '5px', top: '0px', color:"rgb(255, 0, 255)"}}>
+          <div style={{ position: 'relative' }}>
+            {/* <span className={`block xl:inline`} style={{position: 'absolute', left: '5px', top: '0px', color:"rgb(255, 0, 255)", fontSize: "5rem"}}> */}
+            <span
+              className={`block xl:inline`}
+              style={{
+                position: 'absolute',
+                left: '5px',
+                top: '0px',
+                color: 'rgb(255, 0, 255)',
+                fontSize: '5rem',
+              }}
+            >
               {mainHero.subtitle}
             </span>
-            <span className={`block xl:inline`} style={{position: 'absolute', left: '10px', top: '0px', color:"black"}}>
+            {/* <span className={`block xl:inline`} style={{position: 'absolute', left: '10px', top: '0px', color:"black", fontSize: "5rem"}}> */}
+            <span
+              className={`block xl:inline`}
+              style={{
+                position: 'absolute',
+                left: '10px',
+                top: '0px',
+                color: 'black',
+                fontSize: '5rem',
+              }}
+            >
               {mainHero.subtitle}
             </span>
-            <span className={`block xl:inline`} style={{position: 'absolute', left: '15px', top: '0px', color:"cyan"}}>
+            {/* <span className={`block xl:inline`} style={{position: 'absolute', left: '15px', top: '0px', color:"cyan", fontSize: "5rem"}}> */}
+            <span
+              className={`block xl:inline`}
+              style={{
+                position: 'absolute',
+                left: '15px',
+                top: '0px',
+                color: 'cyan',
+                fontSize: '5rem',
+              }}
+            >
               {mainHero.subtitle}
             </span>
-            <span className={`block xl:inline`} style={{position: 'relative', color:"transparent"}}>
-              {mainHero.subtitle}
+            {/* <span className={`block xl:inline`} style={{ position: 'relative', color: "transparent", fontSize: "5rem" }}>asd</span> */}
+            {/* <span className={`block xl:inline`} style={{ position: 'relative', color: 'transparent', fontSize: '5rem', }}> */}
+            {/* <span className={`block xl:inline`} style={{ position: 'relative', color: 'transparent', fontSize: '5rem', }}> */}
+            <span
+              className={`block xl:inline`}
+              style={{
+                position: 'relative',
+                color: 'transparent',
+                fontSize: '5rem',
+              }}
+            >
+              test
             </span>
           </div>
         </h1>
@@ -37,14 +77,6 @@ const MainHero = () => {
               {mainHero.primaryAction.text}
             </a>
           </div>
-          {/* <div className="mt-3 sm:mt-0 sm:ml-3">
-            <a
-              href={mainHero.secondaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
-            >
-              {mainHero.secondaryAction.text}
-            </a>
-          </div> */}
         </div>
       </div>
     </main>

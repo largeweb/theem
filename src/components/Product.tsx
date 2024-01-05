@@ -8,7 +8,9 @@ const Product = () => {
   const [firstItem] = product.items;
 
   return (
-    <section className={`bg-background py-8`} id="product">
+    // <section className={`bg-background py-8`} id="product">
+    // blue background instead of bg-background
+    <section className={`bg-blue-100 py-8`} id="product">
       <div className={`container max-w-5xl mx-auto m-8`}>
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}

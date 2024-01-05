@@ -3,18 +3,6 @@
 @tailwind utilities;
 
 :root {
-  /* Green shades for primary and secondary colors, with a touch of gold for tertiary */
-  --color-primary: #4CAF50; /* A vibrant, professional green */
-  --color-secondary: #388E3C; /* A darker shade of green for contrast */
-  --color-tertiary: #FFD700; /* Gold color for accentuating elements */
-
-  /* Blue accent color for additional styling (optional) */
-  --color-accent: #2196F3; /* A crisp, professional blue */
-}
-
-/* lets go with blue and pink style to target tik tokers instead of whats above */
-
-:root {
   /* Blue shades for primary and secondary colors, with a touch of pink for tertiary */
   --color-primary: #2196F3; /* A vibrant, professional blue */
   --color-secondary: #1976D2; /* A darker shade of blue for contrast */
