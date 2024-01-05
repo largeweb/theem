@@ -14,10 +14,10 @@ const App = () => {
   return (
     // <div className={`bg-background grid gap-y-16 overflow-hidden`}>
     // lets go with blue background instead of bg-background
-    <div className={`bg-blue-100 grid gap-y-16 overflow-hidden`}>
+    <div className={`bg-white-100 grid gap-y-16 overflow-hidden`}>
       {/* <div className={`relative bg-background`}> */}
       {/* also make this blue */}
-      <div className={`relative bg-blue-100`}>
+      <div className={`relative bg-white-100`}>
         {/* <div className="max-w-7xl mx-auto"> */}
         <div>
           <div>

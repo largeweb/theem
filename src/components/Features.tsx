@@ -8,7 +8,7 @@ const Features = () => {
   return (
     // <div className={`py-12 bg-background`} id="features">
     // blue background instead of bg-background
-    <div className={`py-12 bg-blue-100`} id="features">
+    <div className={`py-12 bg-white-100`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           {/* <h2

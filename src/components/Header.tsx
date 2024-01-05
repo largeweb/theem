@@ -36,10 +36,8 @@ const Menu = () => {
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
                     // className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
-                    // bg-blue-100 background with pink hover
-                    // className={`bg-blue-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-pink-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
-                    // actually make the ring focus pink and make the hover dark blue
-                    className={`bg-blue-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-100`}
+                    // make the ring pink
+                    className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-300`}
                   >
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -93,7 +91,7 @@ const Menu = () => {
             className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
             <div
-              className={`rounded-lg shadow-md bg-blue-100 ring-1 ring-black ring-opacity-5 overflow-hidden`}
+              className={`rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
@@ -102,8 +100,8 @@ const Menu = () => {
                 <div className="-mr-2">
                   <Popover.Button
                     // className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
-                    // actually make the ring focus pink and make the hover dark blue
-                    className={`bg-blue-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-100`}
+                    // make the ring pink
+                    className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-300`}
                   >
                     <span className="sr-only">Close main menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
@@ -135,9 +133,7 @@ const Menu = () => {
               </div>
               <a
                 href={callToAction.href}
-                // className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
-                // make it blue instead of gray, and pink hover
-                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-blue-100 hover:bg-pink-100`}
+                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
               >
                 {callToAction.text}
               </a>
